@@ -3,7 +3,7 @@ public class Main {
         Customer specialAgent= new Customer("James","Bond");
 //FlightBookingService flightBookingService = new FlightBookingService();
 //flightBookingService.bookFlight(1, specialAgent);
-//        System.out.println("Общее количество броней: "+ flightBookingService.getCurrentBookingCount());
+//        System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: "+ flightBookingService.getCurrentBookingCount());
 
 //        HotelBookingService hotelBookingService = new HotelBookingService();
 //        hotelBookingService.bookHotel(1, specialAgent);
