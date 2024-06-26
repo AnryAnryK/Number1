@@ -1,7 +1,7 @@
 public class FlightBookingService  extends AbstractBookingService  {
     //private int bookingsCount;
     public void book (int id, Customer customer){
-        System.out.println("Билеты. Бронь № "+id+" :" + customer.getFullName());
+        System.out.println("Билеты. Бронь №№ "+id+" :" + customer.getFullName());
         bookingsCount++; //сервис бронирует билеты и прибавляет количество броней
     }
     public void cancel (int id){
