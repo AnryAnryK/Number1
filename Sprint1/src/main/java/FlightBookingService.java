@@ -1,18 +1,18 @@
 public class FlightBookingService  extends AbstractBookingService  {
     //private int bookingsCount;
     public void book (int id, Customer customer){
-        System.out.println("Билеты. Бронь №№ "+id+" :" + customer.getFullName());
-        bookingsCount++; //сервис бронирует билеты и прибавляет количество броней
+        System.out.println("Р‘РёР»РµС‚С‹. Р‘СЂРѕРЅСЊ в„–в„–в„– "+id+" :" + customer.getFullName());
+        bookingsCount++; //СЃРµСЂРІРёСЃ Р±СЂРѕРЅРёСЂСѓРµС‚ Р±РёР»РµС‚С‹ Рё РїСЂРёР±Р°РІР»СЏРµС‚ РєРѕР»РёС‡РµСЃС‚РІРѕ Р±СЂРѕРЅРµР№
     }
     public void cancel (int id){
         if (bookingsCount==0){
-            System.out.println("Билеты. Нет броней, отменять нечего");
+            System.out.println("Р‘РёР»РµС‚С‹. РќРµС‚ Р±СЂРѕРЅРµР№, РѕС‚РјРµРЅСЏС‚СЊ РЅРµС‡РµРіРѕ");
         } else {
-            System.out.println("Билеты. Отменяем бронь № " + id);
-            bookingsCount--; //сервис отменяет забронированные билеты и удаляет количество броней
+            System.out.println("Р‘РёР»РµС‚С‹. РћС‚РјРµРЅСЏРµРј Р±СЂРѕРЅСЊ в„– " + id);
+            bookingsCount--; //СЃРµСЂРІРёСЃ РѕС‚РјРµРЅСЏРµС‚ Р·Р°Р±СЂРѕРЅРёСЂРѕРІР°РЅРЅС‹Рµ Р±РёР»РµС‚С‹ Рё СѓРґР°Р»СЏРµС‚ РєРѕР»РёС‡РµСЃС‚РІРѕ Р±СЂРѕРЅРµР№
         }
     }
     public int getBookingsCount(){
-        return bookingsCount; //сервис считает общее количество броней
+        return bookingsCount; //СЃРµСЂРІРёСЃ СЃС‡РёС‚Р°РµС‚ РѕР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р±СЂРѕРЅРµР№
     }
 }
