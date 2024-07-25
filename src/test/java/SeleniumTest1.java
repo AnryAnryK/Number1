@@ -58,7 +58,7 @@ public class SeleniumTest1 {
 //конец сессии  - УСПЕШНО
     driver.quit();
 
-// - кладу в ГитХаб
+// - кладу в ГитХаб (2) в Отдельную верку (Селениум)
 
 //  searchBox.submit();
   //Thread.sleep(5000);  // Let the user actually see something!
