@@ -58,6 +58,7 @@ public class SeleniumTest1 {
 //конец сессии  - УСПЕШНО
     driver.quit();
 
+// - кладу в ГитХаб
 
 //  searchBox.submit();
   //Thread.sleep(5000);  // Let the user actually see something!
